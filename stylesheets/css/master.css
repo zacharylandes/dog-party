@@ -1,0 +1,105 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+nav{
+  align-items: center;
+  background-color: #95E0E4;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+h4{
+  margin: 0;
+  color: white;
+}
+h1{
+  margin: 0;
+  font-size: 20px;
+}
+header{
+  text-align: center;
+}
+
+footer {
+  background-color: #438DA6;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  padding: 30px;
+}
+
+a {
+  color:white;
+}
+p {
+  text-align: center;
+}
+
+#dog-icon {
+  height: 35px;
+}
+
+#nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-image: url('../../images/park.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dog-button{
+  background-color: white;
+  border: 1px solid
+}
+
+.bottom-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:20px;
+}
+
+.dog-column{
+  display: flex;
+  padding: 10px 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dog-photo {
+  border-radius: 50%;
+}
+
+.big-dog {
+  width:  300px;
+  height: 300px;
+  margin: 10px;
+  border:3px solid #4C92AA;
+}
+
+.small-dog {
+  border: 2px solid #4C92AA;
+  width: 180px;
+  height: 180px;
+}
+
+.social-container{
+  margin:20px;
+}
